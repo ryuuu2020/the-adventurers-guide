@@ -1,0 +1,5 @@
+# 308 permanent redirects or standard routing for Cloudflare Pages
+/classes.html /classes/ 301
+/planner.html /planner/ 301
+/combat.html /combat/ 301
+/patch-notes.html /patch-notes/ 301
