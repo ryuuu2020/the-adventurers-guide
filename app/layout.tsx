@@ -6,6 +6,9 @@ import TacticalFooter from '@/components/TacticalFooter';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://theadventurersguide.wiki'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'The Adventurers Guide | Tactical RPG Database & Party Planner (Steam 1.0)',
     template: '%s | The Adventurers Strategy Database',
