@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Complete level 1 to 10 talent tree progression for all 8 playable classes in The Adventurers 1.0. Exact skill unlock levels, AP costs, active verbs, passives, and synergy builds for Warrior, Archer, Thief, Wizard, Cleric, Paladin, Druid, and Warlock.',
   alternates: {
-    canonical: '/talent-trees-guide',
+    canonical: '/talent-trees-guide/',
   },
   keywords: [
     'The Adventurers talent trees',

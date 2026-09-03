@@ -1,3 +1,12 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Patch Notes & Changelog — The Adventurers 1.0.0.0 and Early Access History',
+  description:
+    'Official changelog for The Adventurers: 1.0.0.0 release balance changes, Agility defence nerf, Resolve magic buff, fort request retiming and the full Early Access patch history.',
+  alternates: { canonical: '/patch-notes/' },
+};
+
 export default function PatchNotesPage() {
   return (
     <div className="space-y-8">

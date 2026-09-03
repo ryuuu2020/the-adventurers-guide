@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact Editorial Team — The Adventurers Guide',
   description: 'Contact the maintainers of The Adventurers Guide for tactical corrections, patch verification, and editorial inquiries.',
+  alternates: { canonical: '/contact/' },
 };
 
 export default function ContactPage() {

@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy — The Adventurers Guide',
   description: 'Privacy policy and data protection practices for The Adventurers Guide.',
+  alternates: { canonical: '/privacy/' },
 };
 
 export default function PrivacyPage() {

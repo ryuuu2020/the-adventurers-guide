@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Complete breakdown of all 15 personality traits in The Adventurers 1.0. Optimal camp assignment matrix for cooking, guarding, hunting, repair, and tavern resting to eliminate desertion and mutiny.',
   alternates: {
-    canonical: '/camp-morale-guide',
+    canonical: '/camp-morale-guide/',
   },
   keywords: [
     'The Adventurers personalities',
