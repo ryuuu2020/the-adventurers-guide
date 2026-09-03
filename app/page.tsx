@@ -352,6 +352,40 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
+
+      {/* Guide Index — internal link hub */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-2">
+          <span className="font-mono text-xs text-[#58a6ff] uppercase tracking-wider">// Guide Index</span>
+          <span className="flex-1 h-px bg-[#30363d]"></span>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {[
+            { href: '/planner', icon: '▦', title: 'Party Builder & Planner', desc: 'Interactive 6-stat allocation across 8 classes with live AP and damage math.' },
+            { href: '/classes', icon: '⚔', title: 'All 8 Classes', desc: 'Primary stats, weapon affinities and every ability verb with its tactical effect.' },
+            { href: '/talent-trees-guide', icon: '🌲', title: '1-10 Talent Trees', desc: 'Level 2/4/6/8/10 talent picks for all 8 classes, with tactical notes per choice.' },
+            { href: '/camp-morale-guide', icon: '⛺', title: 'Camp & 15 Personalities', desc: 'Morale swings, camp duty assignments and which personalities clash at camp.' },
+            { href: '/combat', icon: '⬡', title: 'Hex Combat Mechanics', desc: 'Hex grid engagement, Gang Up flanking multipliers, choke control and Energy math.' },
+            { href: '/patch-notes', icon: '📋', title: '1.0.0.0 Patch Notes', desc: 'Balance changes shipped with the 1.0 release, itemised by system.' },
+            { href: '/faq', icon: '❓', title: 'FAQ', desc: 'Release facts, Energy recovery, resurrection rules and how morale feeds combat.' },
+            { href: '/about', icon: 'ℹ', title: 'About This Guide', desc: 'How every formula gets verified, and where our evidence boundary sits.' },
+          ].map((g) => (
+            <Link
+              key={g.href}
+              href={g.href}
+              className="tactical-card p-4 space-y-1.5 hover:border-[#58a6ff] transition-colors group"
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-sm">{g.icon}</span>
+                <h3 className="font-heading font-bold text-xs text-[#e6edf3] group-hover:text-[#58a6ff] transition-colors">
+                  {g.title}
+                </h3>
+              </div>
+              <p className="text-[11px] text-[#8b949e] leading-relaxed">{g.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
