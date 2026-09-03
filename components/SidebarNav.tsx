@@ -8,6 +8,8 @@ const navItems = [
   { href: '/', label: 'Overview', icon: '⌂' },
   { href: '/planner', label: 'Party Planner & Calc', icon: '⚙' },
   { href: '/classes', label: 'Classes & Talents', icon: '⚔' },
+  { href: '/talent-trees-guide', label: '1-10 Talent Trees', icon: '🌲' },
+  { href: '/camp-morale-guide', label: 'Camp & 15 Morale', icon: '⛺' },
   { href: '/combat', label: 'Hex Combat & Mechanics', icon: '⬡' },
   { href: '/patch-notes', label: '1.0 & EA Patch Notes', icon: '📋' },
   { href: '/faq', label: 'FAQ', icon: '?' },

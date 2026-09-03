@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/classes',
     '/combat',
     '/patch-notes',
+    '/camp-morale-guide',
+    '/talent-trees-guide',
     '/about',
     '/contact',
     '/privacy',

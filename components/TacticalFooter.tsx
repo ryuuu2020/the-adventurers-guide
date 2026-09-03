@@ -40,6 +40,16 @@ export default function TacticalFooter() {
                 </Link>
               </li>
               <li>
+                <Link href="/talent-trees-guide" className="hover:text-[#58a6ff] transition-colors">
+                  ▶ 1-10 Talent Trees
+                </Link>
+              </li>
+              <li>
+                <Link href="/camp-morale-guide" className="hover:text-[#58a6ff] transition-colors">
+                  ▶ Camp &amp; 15 Personalities
+                </Link>
+              </li>
+              <li>
                 <Link href="/combat" className="hover:text-[#58a6ff] transition-colors">
                   ▶ Hex Grid &amp; Damage Types
                 </Link>
