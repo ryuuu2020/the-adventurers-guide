@@ -208,7 +208,7 @@ const TALENT_TREES: ClassTalentProgression[] = [
     className: 'Cleric',
     role: 'Premier Radiant Healer & Anti-Undead Anchor',
     statPriority: 'Resolve (Healing Power & Radiant Damage) > Vitality (Durability) > Strength (Mace Defense)',
-    metaOverview: 'The premier healer of Shion. Clerics do not just heal—their Purge Unholy and Celestial Ward abilities trivialize vampire and undead crypt expeditions while keeping company wounds low to prevent camp morale collapse.',
+    metaOverview: 'The premier healer of Shion. Healing is only half of what a Cleric does: Purge Unholy and Celestial Ward trivialize vampire and undead crypt expeditions while keeping company wounds low to prevent camp morale collapse.',
     signatureCombos: [
       'Bless (Lv 2) + Mend Wounds (Lv 1) = Boosting ally hit chances while topping off frontline health',
       'Purge Unholy (Lv 6) + Radiant Strike (Lv 4) = Massive burst multipliers againstskeletons and ghouls',

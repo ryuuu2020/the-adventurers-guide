@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About — Tactical Game Guide & Verified Reference',
+  title: 'About',
   description: 'About The Adventurers Guide: An independent tactical wiki, evidence boundary, and stat simulator for the turn-based RPG The Adventurers.',
   alternates: { canonical: '/about/' },
 };

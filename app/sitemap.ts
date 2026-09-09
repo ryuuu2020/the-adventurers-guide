@@ -2,7 +2,6 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://theadventurersguide.wiki';
-  const lastModified = new Date();
 
   const routes = [
     '',
@@ -20,7 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map((route) => ({
     url: `${baseUrl}${route}${route === '' ? '/' : '/'}`,
-    lastModified,
     changeFrequency: route === '' ? 'daily' : 'weekly',
     priority: route === '' ? 1.0 : route === '/planner' || route === '/classes' || route === '/combat' ? 0.9 : 0.7,
   }));

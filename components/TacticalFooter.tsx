@@ -18,9 +18,6 @@ export default function TacticalFooter() {
               <strong className="text-[#e6edf3]">The Adventurers</strong> (Steam App ID 3062500) developed by{' '}
               <strong className="text-[#e6edf3]">Eternal Vigilance Entertainment</strong>. Not affiliated with or endorsed by the developer. All trademarks and game assets belong to their respective owners.
             </p>
-            <div className="pt-2 font-mono text-[11px] text-[#58a6ff]">
-              Official Publisher AdSense ID: ca-pub-8925824244664340
-            </div>
           </div>
 
           {/* Col 2: Tactical Modules */}

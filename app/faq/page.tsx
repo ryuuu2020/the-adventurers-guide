@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'FAQ — Frequently Asked Tactical Questions',
+  title: 'Tactical FAQ',
   description: 'Common questions and answers regarding The Adventurers mechanics, 1.0 updates, classes, and formulas.',
   alternates: { canonical: '/faq/' },
 };

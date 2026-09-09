@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Patch Notes & Changelog — The Adventurers 1.0.0.0 and Early Access History',
+  title: 'Patch Notes & Changelog: 1.0.0.0 and Early Access History',
   description:
     'Official changelog for The Adventurers: 1.0.0.0 release balance changes, Agility defence nerf, Resolve magic buff, fort request retiming and the full Early Access patch history.',
   alternates: { canonical: '/patch-notes/' },
@@ -23,7 +23,7 @@ export default function PatchNotesPage() {
           Complete official changelog from Eternal Vigilance Entertainment: Full 1.0.0.0 release (Aug 31, 2026), late Early Access combat overhauls, modding integration, and balance history.
         </p>
         <p className="font-mono text-[10px] text-[#8b949e] mt-2">
-          LAST VERIFIED: 2026-09-07 // SOURCE: STEAM NEWS FEED (APPID 3062500) &amp; OFFICIAL PATCH ANNOUNCEMENTS
+          Last verified 2026-09-07 against the Steam news feed for appid 3062500 and the matching patch announcements.
         </p>
       </div>
 
@@ -46,7 +46,7 @@ export default function PatchNotesPage() {
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 bg-[#3fb950]"></span>
             <h3 className="font-heading text-xl font-bold text-[#e6edf3]">
-              v1.0.0.0 Full Release — &quot;Out of Early Access&quot;
+              v1.0.0.0 Full Release: &quot;Out of Early Access&quot;
             </h3>
           </div>
           <div className="font-mono text-xs text-[#3fb950] bg-[#3fb950]/10 px-2.5 py-1 border border-[#3fb950]/30">
@@ -55,7 +55,7 @@ export default function PatchNotesPage() {
         </div>
 
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          The 1.0 release announcement, posted by developer Eternal Vigilance Ent on the day of launch, framed the update as the end of a long community-driven Early Access run — the developer described the project as having been &quot;mostly a solo side project,&quot; supported by contracted artists and a feedback-heavy player base. Alongside the combat and fort changes listed below, the announcement confirmed that the world of Shion will continue beyond 1.0, that more game elements are planned to open up to modding based on demand, and that three new official guides now exist: The Adventurer Guide (covering the adventurers and their surrounding systems), The Towns Guide (town features, shops, prosperity and relationships), and The Modding Guide (creating mods and uploading them to the Steam Workshop).
+          The 1.0 release announcement, posted by developer Eternal Vigilance Ent on the day of launch, framed the update as the end of a long community-driven Early Access run; the developer described the project as having been &quot;mostly a solo side project,&quot; supported by contracted artists and a feedback-heavy player base. Alongside the combat and fort changes listed below, the announcement confirmed that the world of Shion will continue beyond 1.0, that more game elements are planned to open up to modding based on demand, and that three new official guides now exist: The Adventurer Guide (covering the adventurers and their surrounding systems), The Towns Guide (town features, shops, prosperity and relationships), and The Modding Guide (creating mods and uploading them to the Steam Workshop).
         </p>
 
         <div className="space-y-3 text-xs font-mono text-[#8b949e]">
@@ -97,7 +97,7 @@ export default function PatchNotesPage() {
         </div>
 
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          Practically, the 1.0.0.0 modding schema is the headline for long-term players: with Abilities, Combat Actions, Fort Buildings, Fort Requests, Quests, and Towns all exposed as editable JSON, community balance patches and total conversions are now possible without touching compiled game files. The fort request retiming is the headline for everyone else — a halved wait on fort turnarounds changes how often you can realistically bank on fort rewards during a long expedition, which in turn changes camp and economy decisions documented in our other guides.
+          Practically, the 1.0.0.0 modding schema is the headline for long-term players: with Abilities, Combat Actions, Fort Buildings, Fort Requests, Quests, and Towns all exposed as editable JSON, community balance patches and total conversions are now possible without touching compiled game files. The fort request retiming is the headline for everyone else: a halved wait on fort turnarounds changes how often you can realistically bank on fort rewards during a long expedition, which in turn changes camp and economy decisions documented in our other guides.
         </p>
       </section>
 
@@ -105,7 +105,7 @@ export default function PatchNotesPage() {
       <section className="tactical-card p-6 bg-[#141a23] space-y-3">
         <div className="flex items-center justify-between border-b border-[#30363d] pb-2">
           <div className="font-mono text-sm font-bold text-[#e6edf3]">
-            v0.9.9.0 (Beta / Live Prep) — Modding Systems Initial Rollout
+            v0.9.9.0 (Beta / Live Prep): Modding Systems Initial Rollout
           </div>
           <span className="font-mono text-xs text-[#8b949e]">AUG 9, 2026</span>
         </div>
@@ -113,7 +113,7 @@ export default function PatchNotesPage() {
           Introduced initial external modding framework exposing raw game definitions for Classes, Creatures, and Item data. Polished over 500+ item icons and resolved blacksmith rush order queues.
         </p>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          In the developer&apos;s own announcement, the beta branch rollout was described as an intentionally cautious first step: the classes, creatures and items definitions went live first precisely because modding without the game&apos;s internal safety checks &quot;could cause oddities,&quot; so the developer wanted to validate the pipeline before exposing more systems. The same post confirmed that when mod support hit the live branch, a full guide on overriding icons and portraits via relative paths (for example, dropping a replacement into <code className="text-[#58a6ff]">icons/filename.png</code>) would follow — the guide structure that later became the official Modding Guide shipped with 1.0.
+          In the developer&apos;s own announcement, the beta branch rollout was described as an intentionally cautious first step: the classes, creatures and items definitions went live first precisely because modding without the game&apos;s internal safety checks &quot;could cause oddities,&quot; so the developer wanted to validate the pipeline before exposing more systems. The same post confirmed that when mod support hit the live branch, a full guide on overriding icons and portraits via relative paths (for example, dropping a replacement into <code className="text-[#58a6ff]">icons/filename.png</code>) would follow. The guide structure that later became the official Modding Guide shipped with 1.0.
         </p>
       </section>
 
@@ -121,12 +121,12 @@ export default function PatchNotesPage() {
       <section className="tactical-card p-6 bg-[#141a23] space-y-3">
         <div className="flex items-center justify-between border-b border-[#30363d] pb-2">
           <div className="font-mono text-sm font-bold text-[#e6edf3]">
-            Final Demo Update — Pre-Release Snapshot of the 1.0 Build
+            Final Demo Update: Pre-Release Snapshot of the 1.0 Build
           </div>
           <span className="font-mono text-xs text-[#8b949e]">AUG 2, 2026</span>
         </div>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          Roughly a month before launch, the developer pushed an update to the demo branch — the first in over nine months — and flagged it as likely the final demo update until after release. The announcement previewed changes landing in the demo, including an extended demo length, giving prospective players a representative slice of the near-final 1.0 systems. If you tried the demo before June 2026, you were playing a snapshot of the game as it stood nearly a full development cycle earlier; the fog of war, unstable-terrain, and social-bonus changes listed below all postdate that older demo build.
+          Roughly a month before launch, the developer pushed an update to the demo branch, the first in over nine months, and flagged it as likely the final demo update until after release. The announcement previewed changes landing in the demo, including an extended demo length, giving prospective players a representative slice of the near-final 1.0 systems. If you tried the demo before June 2026, you were playing a snapshot of the game as it stood nearly a full development cycle earlier; the fog of war, unstable-terrain, and social-bonus changes listed below all postdate that older demo build.
         </p>
       </section>
 
@@ -134,7 +134,7 @@ export default function PatchNotesPage() {
       <section className="tactical-card p-6 bg-[#141a23] space-y-3">
         <div className="flex items-center justify-between border-b border-[#30363d] pb-2">
           <div className="font-mono text-sm font-bold text-[#e6edf3]">
-            v0.9.7.7 — Halberd Range &amp; Flying Creatures Terrain Immunity
+            v0.9.7.7: Halberd Range &amp; Flying Creatures Terrain Immunity
           </div>
           <span className="font-mono text-xs text-[#8b949e]">JULY 2026</span>
         </div>
@@ -144,7 +144,7 @@ export default function PatchNotesPage() {
           <div>• <strong className="text-[#e6edf3]">Summoner XP:</strong> Summons now award full experience points to the summoner character upon kill.</div>
         </div>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          This was the patch that made reach weapons a genuine positioning tool rather than a niche pick: a two-hex default reach means a halberd line can strike over a front-row ally, which pairs naturally with the difficult-terrain penalties introduced in the v0.9.7.x series. The flyer immunity change is equally tactical — twenty-plus flying creature types now ignore mud, sand, and snow slowdowns, so the terrain traps you set for ground packs simply do not apply to the bat and harpy encounters in the same region.
+          This was the patch that made reach weapons a genuine positioning tool rather than a niche pick: a two-hex default reach means a halberd line can strike over a front-row ally, which pairs naturally with the difficult-terrain penalties introduced in the v0.9.7.x series. The flyer immunity change is equally tactical: twenty-plus flying creature types now ignore mud, sand, and snow slowdowns, so the terrain traps you set for ground packs simply do not apply to the bat and harpy encounters in the same region.
         </p>
       </section>
 
@@ -152,7 +152,7 @@ export default function PatchNotesPage() {
       <section className="tactical-card p-6 bg-[#141a23] space-y-3">
         <div className="flex items-center justify-between border-b border-[#30363d] pb-2">
           <div className="font-mono text-sm font-bold text-[#e6edf3]">
-            v0.9.7.5 — Fog of War Calibration &amp; Social Buffs
+            v0.9.7.5: Fog of War Calibration &amp; Social Buffs
           </div>
           <span className="font-mono text-xs text-[#8b949e]">JUNE 2026</span>
         </div>
@@ -162,7 +162,7 @@ export default function PatchNotesPage() {
           <div>• <strong className="text-[#e6edf3]">Map Labels:</strong> Added optional setting for town labels on the world map.</div>
         </div>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          Announced as a rapid calibration pass, this patch walked back some of the harsher edge cases from the first Fog of War release while simultaneously strengthening the social system it interacts with. A +50% bump to social relationship bonuses — later surfaced in tooltips at 1.0 — turned party composition from a pure combat spreadsheet into a relationship-management problem, which is the entire premise of our <Link href="/camp-morale-guide" className="text-[#58a6ff] hover:underline">camp morale guide</Link>.
+          Announced as a rapid calibration pass, this patch walked back some of the harsher edge cases from the first Fog of War release while simultaneously strengthening the social system it interacts with. A +50% bump to social relationship bonuses, later surfaced in tooltips at 1.0, turned party composition from a pure combat spreadsheet into a relationship-management problem, which is the entire premise of our <Link href="/camp-morale-guide" className="text-[#58a6ff] hover:underline">camp morale guide</Link>.
         </p>
       </section>
 
@@ -170,7 +170,7 @@ export default function PatchNotesPage() {
       <section className="tactical-card p-6 bg-[#141a23] space-y-3">
         <div className="flex items-center justify-between border-b border-[#30363d] pb-2">
           <div className="font-mono text-sm font-bold text-[#e6edf3]">
-            v0.9.7.2 – v0.9.7.3 — Unstable Platforms &amp; Blacksmith Timing
+            v0.9.7.2 to v0.9.7.3: Unstable Platforms &amp; Blacksmith Timing
           </div>
           <span className="font-mono text-xs text-[#8b949e]">MAY 2026</span>
         </div>
@@ -180,7 +180,7 @@ export default function PatchNotesPage() {
           <div>• <strong className="text-[#e6edf3]">Economy Adjustment:</strong> Bag of Gems sale price reduced by 33%.</div>
         </div>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          The unstable-platform debuff was described by the developer as a follow-up to the broader difficult-terrain update: fighting from mud, sand, or snow now carries a flat -33% to both hit chance and damage, which reshapes lure-and-ambush play on outdoor maps and makes high ground worth contesting. On the economy side, the blacksmith rush system (+5g for instant craft or smelt) cut standard weapon crafting to two hours and smelting to one, while the Bag of Gems vendor price dropped by a third — a quiet nerf to the gem-dump gold strategy many Early Access parties relied on.
+          The unstable-platform debuff was described by the developer as a follow-up to the broader difficult-terrain update: fighting from mud, sand, or snow now carries a flat -33% to both hit chance and damage, which reshapes lure-and-ambush play on outdoor maps and makes high ground worth contesting. On the economy side, the blacksmith rush system (+5g for instant craft or smelt) cut standard weapon crafting to two hours and smelting to one, while the Bag of Gems vendor price dropped by a third, a quiet nerf to the gem-dump gold strategy many Early Access parties relied on.
         </p>
       </section>
 
@@ -190,7 +190,7 @@ export default function PatchNotesPage() {
           // TRACKING FUTURE UPDATES
         </h3>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          Post-1.0, the developer&apos;s stated direction is continued modding expansion and deeper documentation of the game&apos;s many interlocking systems, with the world of Shion set to continue. This page tracks balance-relevant changes to those systems; when a new patch lands, entries are added only after the numbers are verified against the official announcement. For the mechanical detail behind the versions listed here — the 10-point pivot stat formulas, terrain penalties, and camp personality clashes — start with the <Link href="/" className="text-[#58a6ff] hover:underline">guide index</Link> or run your own party through the <Link href="/planner" className="text-[#58a6ff] hover:underline">Party Planner</Link>.
+          Post-1.0, the developer&apos;s stated direction is continued modding expansion and deeper documentation of the game&apos;s many interlocking systems, with the world of Shion set to continue. This page tracks balance-relevant changes to those systems; when a new patch lands, entries are added only after the numbers are verified against the official announcement. For the mechanical detail behind the versions listed here, including the 10-point pivot stat formulas, terrain penalties, and camp personality clashes, start with the <Link href="/" className="text-[#58a6ff] hover:underline">guide index</Link> or run your own party through the <Link href="/planner" className="text-[#58a6ff] hover:underline">Party Planner</Link>.
         </p>
       </section>
     </div>

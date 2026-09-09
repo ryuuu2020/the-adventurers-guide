@@ -139,7 +139,7 @@ const CLASSES_DATA: Record<string, ClassData> = {
     role: 'Premier Radiant Healer & Buffer',
     primaryStat: 'Resolve (Healing Power & Radiant Damage), Vitality',
     weaponAffinities: ['Maces', 'Staves'],
-    balance10Notes: 'Full restores (Divine Mending & Celestial Heal) only restore living allies. There is NO Resurrection spell in 1.0 — fallen allies must be stabilized before bleed-out expires.',
+    balance10Notes: 'Full restores (Divine Mending & Celestial Heal) only restore living allies. There is no Resurrection spell in 1.0. Fallen allies must be stabilized before bleed-out expires.',
     allyBonusName: 'Healing Received',
     allyBonusMax: '+30% at Cherished',
     overview: 'The irreplaceable support backbone. Delivers instant triage via Mend Wounds, doubles party energy recovery with Divine Energy, and smites unholy foes with Purge Unholy.',
@@ -328,7 +328,7 @@ export default function ClassesPage() {
         <div className="tactical-card p-6 space-y-4">
           <div className="flex items-center justify-between border-b border-[#30363d] pb-2">
             <h4 className="font-mono text-sm font-bold text-[#e6edf3] uppercase">
-              {classData.name} Signature Skill Verbs (Levels 1 – 10)
+              {classData.name} Signature Skill Verbs (Levels 1 to 10)
             </h4>
             <span className="font-mono text-xs text-[#8b949e]">
               Total Signature Verbs: {classData.skills.length}

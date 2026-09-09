@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: 'The Adventurers Strategy Database',
     title: 'The Adventurers Tactical Guide & Interactive Party Planner',
     description:
-      'Official 1.0 formulas, hex combat rules, 8 class talent trees, and interactive party stat calculator for The Adventurers by Eternal Vigilance Entertainment.',
+      'Independent 1.0 formulas, hex combat rules, 8 class talent trees, and an interactive party stat calculator for The Adventurers by Eternal Vigilance Entertainment.',
     images: [
       {
         url: '/images/header.jpg',

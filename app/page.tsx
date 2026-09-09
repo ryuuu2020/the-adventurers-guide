@@ -353,7 +353,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Guide Index — internal link hub */}
+      {/* Guide Index: internal link hub */}
       <section className="space-y-4">
         <div className="flex items-center gap-2">
           <span className="font-mono text-xs text-[#58a6ff] uppercase tracking-wider">// Guide Index</span>

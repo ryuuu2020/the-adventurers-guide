@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Editorial Team — The Adventurers Guide',
+  title: 'Contact Editorial Team',
   description: 'Contact the maintainers of The Adventurers Guide for tactical corrections, patch verification, and editorial inquiries.',
   alternates: { canonical: '/contact/' },
 };
@@ -37,7 +37,7 @@ export default function ContactPage() {
         <div className="tactical-card space-y-3">
           <div className="text-xs font-mono text-tactical-accent font-semibold uppercase">Response Window</div>
           <div className="text-sm font-mono text-tactical-accent-green">
-            24 – 48 Hours
+            24 to 48 hours
           </div>
           <p className="text-xs text-tactical-muted leading-relaxed">
             All submitted mechanical corrections are cross-checked against Steam client build logs before inclusion.

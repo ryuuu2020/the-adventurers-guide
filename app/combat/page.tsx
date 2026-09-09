@@ -4,7 +4,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Hex Combat Rules — Action Points, Gang Up Multipliers & Energy Math',
+  title: 'Hex Combat Rules: Action Points, Gang Up Multipliers & Energy Math',
   description:
     'How The Adventurers combat actually resolves: hex grid engagement, Action Points, Gang Up flanking multipliers, choke control, opportunity attacks and the Energy recovery formula.',
   alternates: { canonical: '/combat/' },
@@ -215,7 +215,7 @@ export default function CombatPage() {
           Permadeath Mechanics &amp; Survival Passives
         </h3>
         <p className="text-xs text-[#8b949e] leading-relaxed">
-          When an adventurer reaches 0 HP, they do not instantly vanish—they enter <strong className="text-[#f85149]">Bleed-Out state</strong>. If combat ends or they are healed with Mend Wounds before the clock expires, they survive.
+          When an adventurer reaches 0 HP, they do not instantly vanish. They enter <strong className="text-[#f85149]">Bleed-Out state</strong>. If combat ends or they are healed with Mend Wounds before the clock expires, they survive.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 font-mono text-xs">
