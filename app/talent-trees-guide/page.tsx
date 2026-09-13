@@ -492,6 +492,20 @@ const TALENT_FAQS = [
 export default function TalentTreesGuidePage() {
   return (
     <div className="space-y-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: TALENT_FAQS.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          }),
+        }}
+      />
       {/* Header */}
       <section className="space-y-3 border-b border-[#30363d] pb-6">
         <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-[#0d1117] border border-[#30363d] text-[#58a6ff] font-mono text-xs">
