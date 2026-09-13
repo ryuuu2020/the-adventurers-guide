@@ -48,6 +48,27 @@ export default function FAQPage() {
         </p>
       </div>
 
+      <section className="tactical-card space-y-2.5 border-l-4 border-l-tactical-accent">
+        <h2 className="text-sm font-mono text-tactical-accent font-bold uppercase tracking-wider">
+          What Game This Guide Covers
+        </h2>
+        <p className="text-xs text-tactical-muted leading-relaxed">
+          The Adventurers is a turn-based tactical RPG developed and published by Eternal Vigilance Entertainment. It
+          released on Steam on August 31, 2026 (store app 3062500) and is set in the open high-fantasy world of Shion,
+          where you lead a custom company of mercenaries. This FAQ covers that game.
+        </p>
+        <p className="text-xs text-tactical-muted leading-relaxed">
+          The systems behind these answers are a six-neighbor hex grid for turn-based combat, eight playable classes
+          with talent trees that unlock picks at levels 2, 4, 6, 8 and 10, a six-stat character sheet with no
+          Intelligence stat, Resolve-based Energy pools, permadeath bleed-out timers, and fifteen camp personalities
+          that shift morale.
+        </p>
+        <p className="text-xs text-tactical-muted leading-relaxed">
+          Hytale classes, World of Warcraft Cataclysm talent trees, and Pathfinder hex combat belong to other games,
+          and none of the questions here describe them.
+        </p>
+      </section>
+
       <div className="space-y-4">
         {FAQ_ITEMS.map((item, index) => (
           <div key={index} className="tactical-card space-y-2">

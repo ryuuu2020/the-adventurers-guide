@@ -79,6 +79,28 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Theme Clarity: what game this site covers */}
+      <section className="tactical-card p-5 bg-[#0d1117] border-l-4 border-l-[#58a6ff] space-y-2.5">
+        <h2 className="font-heading text-lg font-bold text-[#e6edf3]">
+          What This Site Covers: The Adventurers, a Turn-Based Tactical RPG
+        </h2>
+        <p className="text-sm text-[#8b949e] leading-relaxed font-sans">
+          <strong className="text-[#e6edf3]">The Adventurers</strong> is a turn-based tactical RPG developed and published by{" "}
+          <strong className="text-[#e6edf3]">Eternal Vigilance Entertainment</strong>. It released on Steam on August 31, 2026
+          (store app 3062500) and is set in the open high-fantasy world of Shion, where you lead a custom company of
+          mercenaries. This site is a strategy database for that game.
+        </p>
+        <p className="text-sm text-[#8b949e] leading-relaxed font-sans">
+          Its core systems are a six-neighbor hex grid for turn-based combat, eight playable classes whose talent trees
+          unlock picks at levels 2, 4, 6, 8 and 10, a six-stat character sheet with no Intelligence stat, Resolve-based
+          Energy pools, permadeath bleed-out timers, and fifteen camp personalities that drive company morale.
+        </p>
+        <p className="text-xs text-[#8b949e] leading-relaxed font-mono">
+          Hytale classes, World of Warcraft Cataclysm talent trees, and Pathfinder hex combat belong to other games.
+          Nothing on this site describes them.
+        </p>
+      </section>
+
       {/* 1.0 Verified Mechanics Notice Box */}
       <section className="tactical-card p-5 bg-[#0d1117] border-l-4 border-l-[#f0883e] space-y-2 font-mono text-xs">
         <div className="flex items-center justify-between text-[#f0883e] font-bold">

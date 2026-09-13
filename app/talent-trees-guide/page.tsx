@@ -474,6 +474,21 @@ const TALENT_TREES: ClassTalentProgression[] = [
   },
 ];
 
+const TALENT_FAQS = [
+  {
+    q: 'Does The Adventurers have talent trees?',
+    a: 'Yes. Each of the eight classes in The Adventurers has its own talent tree, and every tree opens a new pick at levels 2, 4, 6, 8 and 10. The tables above list the exact choices for Warrior, Archer, Thief, Wizard, Cleric, Paladin, Druid and Warlock. These talent trees belong to The Adventurers, the turn-based tactical RPG from Eternal Vigilance Entertainment, and are separate from the talent systems in World of Warcraft or Hytale.',
+  },
+  {
+    q: 'How many talent trees are there in The Adventurers?',
+    a: 'Eight, one for each class. Warrior, Archer, Thief, Wizard, Cleric, Paladin, Druid and Warlock each have an independent tree, so choices made in one class do not carry into another, and all eight follow the same unlock rhythm of levels 2, 4, 6, 8 and 10.',
+  },
+  {
+    q: 'At what level do the talent trees start in The Adventurers?',
+    a: 'Every class begins with a default level 1 ability, so the first real talent pick arrives at level 2. From there each tree advances at levels 4, 6, 8 and 10, giving five decision points across a full run.',
+  },
+];
+
 export default function TalentTreesGuidePage() {
   return (
     <div className="space-y-10">
@@ -488,7 +503,8 @@ export default function TalentTreesGuidePage() {
           All 8 Classes 1-10 Talent Trees &amp; Progression Guide
         </h1>
         <p className="text-sm text-[#8b949e] max-w-3xl leading-relaxed font-sans">
-          Character progression in <strong className="text-[#e6edf3]">The Adventurers</strong> awards talent points at levels 2, 4, 6, 8, and 10. Every class features distinct branching choices between active offensive verbs, utility buffs, defensive bonus actions, and capstone passives. Below is the complete verified 1.0.0.0 progression breakdown for all 8 archetypes.
+          This page covers the talent trees of <strong className="text-[#e6edf3]">The Adventurers</strong>, the turn-based
+          tactical RPG from Eternal Vigilance Entertainment. Character progression in <strong className="text-[#e6edf3]">The Adventurers</strong> awards talent points at levels 2, 4, 6, 8, and 10. Every class features distinct branching choices between active offensive verbs, utility buffs, defensive bonus actions, and capstone passives. Below is the complete verified 1.0.0.0 progression breakdown for all 8 archetypes.
         </p>
       </section>
 
@@ -583,6 +599,26 @@ export default function TalentTreesGuidePage() {
           </section>
         ))}
       </div>
+
+      {/* Talent Tree FAQ */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-2">
+          <span className="font-mono text-xs text-[#58a6ff] uppercase tracking-wider">// Talent Tree FAQ</span>
+          <span className="flex-1 h-px bg-[#30363d]"></span>
+        </div>
+        <div className="space-y-3">
+          {TALENT_FAQS.map((f) => (
+            <details key={f.q} className="tactical-card p-4 group">
+              <summary className="font-display text-sm font-semibold text-[#e6edf3] cursor-pointer group-hover:text-[#58a6ff] transition-colors">
+                {f.q}
+              </summary>
+              <p className="text-xs text-[#8b949e] leading-relaxed mt-2 pl-4 border-l-2 border-[#58a6ff]/40">
+                {f.a}
+              </p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       {/* Footer CTA */}
       <section className="tactical-card p-6 bg-gradient-to-r from-[#161b22] to-[#0d1117] border border-[#30363d] flex flex-col sm:flex-row items-center justify-between gap-4">
