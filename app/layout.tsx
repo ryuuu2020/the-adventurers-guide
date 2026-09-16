@@ -10,8 +10,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: {
-    default: 'The Adventurers Guide | Tactical RPG Database & Party Planner (Steam 1.0)',
-    template: '%s | The Adventurers Strategy Database',
+    default: 'The Adventurers Guide | Tactical RPG Database & Planner',
+    template: '%s | The Adventurers',
   },
   description:
     'Complete tactical strategy database, interactive 6-stat party planner, 8 class skill verbs, hex combat damage formulas, and 1.0 patch notes for The Adventurers.',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://theadventurersguide.wiki',
     siteName: 'The Adventurers Strategy Database',
-    title: 'The Adventurers Tactical Guide & Interactive Party Planner',
+    title: 'The Adventurers Guide | Tactical RPG Database & Planner',
     description:
       'Independent 1.0 formulas, hex combat rules, 8 class talent trees, and an interactive party stat calculator for The Adventurers by Eternal Vigilance Entertainment.',
     images: [
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Adventurers Strategy Database (1.0)',
+    title: 'The Adventurers Guide | Tactical RPG Database & Planner',
     description:
       'Interactive party planner, tactical hex guides, and 1.0 balance formulas for The Adventurers.',
     images: ['/images/header.jpg'],

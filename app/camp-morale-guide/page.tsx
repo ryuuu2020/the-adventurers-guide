@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '15 Personalities Morale Guide & Camp Duty Matrix',
+  title: { absolute: '15 Personalities Morale Guide & Camp Duty Matrix' },
   description:
     'Complete breakdown of all 15 personality traits in The Adventurers 1.0. Optimal camp assignment matrix for cooking, guarding, hunting, repair, and tavern resting to eliminate desertion and mutiny.',
   alternates: {

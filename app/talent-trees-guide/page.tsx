@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'All 8 Classes 1-10 Talent Trees & Leveling Progression Guide',
+  title: { absolute: 'All 8 Classes 1-10 Talent Trees & Leveling Progression Guide' },
   description:
     'Complete level 1 to 10 talent tree progression for all 8 playable classes in The Adventurers 1.0. Exact skill unlock levels, AP costs, active verbs, passives, and synergy builds for Warrior, Archer, Thief, Wizard, Cleric, Paladin, Druid, and Warlock.',
   alternates: {

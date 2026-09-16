@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy',
+  title: { absolute: 'Privacy Policy' },
   description: 'Privacy policy and data protection practices for The Adventurers Guide.',
   alternates: { canonical: '/privacy/' },
 };

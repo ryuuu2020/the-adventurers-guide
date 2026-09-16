@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Editorial Team',
+  title: { absolute: 'Contact Editorial Team' },
   description: 'Contact the maintainers of The Adventurers Guide for tactical corrections, patch verification, and editorial inquiries.',
   alternates: { canonical: '/contact/' },
 };

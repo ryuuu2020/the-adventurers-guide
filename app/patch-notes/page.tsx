@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Patch Notes & Changelog: 1.0.0.0 and Early Access History',
+  title: { absolute: 'Patch Notes & Changelog: 1.0.0.0 and Early Access History' },
   description:
     'Official changelog for The Adventurers: 1.0.0.0 release balance changes, Agility defence nerf, Resolve magic buff, fort request retiming and the full Early Access patch history.',
   alternates: { canonical: '/patch-notes/' },
