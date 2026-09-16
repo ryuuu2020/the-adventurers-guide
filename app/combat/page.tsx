@@ -4,7 +4,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Hex Combat Rules: Action Points, Gang Up Multipliers & Energy Math',
+  title: { absolute: 'Hex Combat: Action Points, Gang Up and Energy Math' },
   description:
     'How The Adventurers combat actually resolves: hex grid engagement, Action Points, Gang Up flanking multipliers, choke control, opportunity attacks and the Energy recovery formula.',
   alternates: { canonical: '/combat/' },
